@@ -4,7 +4,7 @@ blueprint: modular
 title: Home
 author: ace58172-4e7e-4e4b-9055-f2976d03c65c
 updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
-updated_at: 1714585602
+updated_at: 1714585621
 panels:
   -
     id: lvn816am
