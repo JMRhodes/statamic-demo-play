@@ -1,2 +1,16 @@
 title: FAQs
-fields: {  }
+fields:
+  -
+    handle: items
+    field:
+      mode: typeahead
+      create: true
+      collections:
+        - faq
+      type: entries
+      display: Items
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
