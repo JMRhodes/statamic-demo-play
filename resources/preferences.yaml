@@ -1,1 +1,8 @@
-{  }
+nav:
+  content:
+    'content::collections':
+      action: '@modify'
+      reorder: true
+      children:
+        'content::collections::articles': '@inherit'
+        'content::collections::pages': '@inherit'
