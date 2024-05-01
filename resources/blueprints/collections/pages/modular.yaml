@@ -69,6 +69,13 @@ tabs:
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
+                    faqs:
+                      display: FAQs
+                      instructions: null
+                      icon: alert-help-question
+                      fields:
+                        -
+                          import: faqs
                     media_text:
                       display: 'Media & Text'
                       instructions: null
