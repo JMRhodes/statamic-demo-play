@@ -1,0 +1,10 @@
+cookie_lifetime: 30
+necessary: null
+enable_analytics: true
+enable_analytics_default: true
+analytics: null
+enable_advertising: false
+enable_advertising_default: false
+advertising: null
+enable_google: false
+google_tag_id: null
