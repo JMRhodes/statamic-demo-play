@@ -1,0 +1,7 @@
+nav:
+  content:
+    'content::collections':
+      action: '@modify'
+      reorder: true
+      children:
+        'content::collections::pages': '@inherit'
