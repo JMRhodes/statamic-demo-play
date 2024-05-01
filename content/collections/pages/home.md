@@ -4,7 +4,7 @@ blueprint: modular
 title: Home
 author: ace58172-4e7e-4e4b-9055-f2976d03c65c
 updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
-updated_at: 1714598655
+updated_at: 1714598661
 panels:
   -
     id: lvn816am
@@ -24,6 +24,19 @@ panels:
       open_in_new_window: true
     settings:
       image_align: right
+    description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables led by subject matter experts."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel."
 ---
 ## Welcome to your brand new Statamic site!
 
