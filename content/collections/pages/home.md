@@ -4,7 +4,7 @@ blueprint: modular
 title: Home
 author: ace58172-4e7e-4e4b-9055-f2976d03c65c
 updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
-updated_at: 1714598698
+updated_at: 1714598906
 panels:
   -
     id: lvn816am
@@ -21,7 +21,7 @@ panels:
     link:
       label: 'Learn more'
       url: 'https://google.com/'
-      open_in_new_window: true
+      open_in_new_window: false
     settings:
       image_align: right
     description:
