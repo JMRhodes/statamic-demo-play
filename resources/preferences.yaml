@@ -1,6 +1,1 @@
-nav:
-  top_level:
-    'top_level::test':
-      action: '@create'
-      display: Test
-      url: test
+{  }
