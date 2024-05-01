@@ -51,15 +51,7 @@ fields:
       replicator_preview: true
       hide_display: false
   -
-    handle: button
-    field:
-      type: link
-      display: Button
-      listable: hidden
-      instructions_position: above
-      visibility: visible
-      replicator_preview: true
-      hide_display: false
+    import: links
   -
     handle: settings
     field:
