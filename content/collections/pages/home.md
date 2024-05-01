@@ -4,7 +4,7 @@ blueprint: modular
 title: Home
 author: ace58172-4e7e-4e4b-9055-f2976d03c65c
 updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
-updated_at: 1714585621
+updated_at: 1714591832
 panels:
   -
     id: lvn816am
@@ -16,12 +16,23 @@ panels:
   -
     id: lvn817m7
     headline: 'Brilliant Toolkit to Build Nextgen Website Faster.'
-    description: |-
-      The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables led by subject matter experts.
-
-      The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel.
+    description:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: "The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables led by subject matter experts.The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel."
     type: media_text
     enabled: true
+    link:
+      label: 'Learn more'
+      url: 'https://google.com/'
+      open_in_new_window: true
+    settings:
+      image_align: right
 ---
 ## Welcome to your brand new Statamic site!
 
