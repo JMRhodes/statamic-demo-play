@@ -22,3 +22,48 @@ fields:
       visibility: visible
       replicator_preview: true
       hide_display: false
+  -
+    handle: link
+    field:
+      fields:
+        -
+          handle: label
+          field:
+            input_type: text
+            antlers: false
+            type: text
+            display: Label
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            replicator_preview: true
+            hide_display: false
+        -
+          handle: url
+          field:
+            type: link
+            display: URL
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            replicator_preview: true
+            hide_display: false
+        -
+          handle: open_in_new_window
+          field:
+            default: false
+            type: toggle
+            display: 'Open in new window'
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            replicator_preview: true
+            hide_display: false
+      fullscreen: true
+      type: group
+      display: Link
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
