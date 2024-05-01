@@ -3,7 +3,7 @@ fields:
   -
     handle: items
     field:
-      mode: typeahead
+      mode: select
       create: true
       collections:
         - faq
