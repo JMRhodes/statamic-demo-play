@@ -4,7 +4,7 @@ blueprint: modular
 title: Home
 author: ace58172-4e7e-4e4b-9055-f2976d03c65c
 updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
-updated_at: 1714599291
+updated_at: 1714599358
 panels:
   -
     id: lvn816am
@@ -41,6 +41,8 @@ panels:
     id: lvoc53kn
     type: faqs
     enabled: true
+    items:
+      - 6d8bbe8d-f2cd-4f5b-a33b-fcb34aca1691
 ---
 ## Welcome to your brand new Statamic site!
 
