@@ -1,0 +1,36 @@
+tree:
+  -
+    id: 0e0356b2-901e-453d-8959-90d6e6046726
+    title: Home
+    url: /
+    data:
+      style: link
+  -
+    id: 7091dd5e-c66f-459c-ada8-268f8a6a8b6c
+    title: About
+    url: '#'
+  -
+    id: 8a26c4e5-31cb-453b-818e-05a1af6d862d
+    title: Pricing
+    url: '#'
+  -
+    id: 01c2e6c3-7144-4f6a-b843-ace02cc9c6db
+    title: Team
+    url: '#'
+  -
+    id: 4e042269-b16c-4039-8775-abbcbc722c29
+    title: Contact
+    url: '#'
+  -
+    id: c29c7036-a202-436f-a31a-603f14e6d81a
+    title: Blog
+    url: '#'
+  -
+    id: 0cc02765-2da2-4a46-a0ef-9ed4b63a58be
+    title: Pages
+    url: '#'
+    children:
+      -
+        id: 116ab184-d5c5-4007-b710-1c27445e791b
+        title: '404 Page'
+        url: '#'

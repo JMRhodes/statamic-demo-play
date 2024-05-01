@@ -1,0 +1,113 @@
+tabs:
+  branding:
+    display: Branding
+    sections:
+      -
+        display: Branding
+        fields:
+          -
+            handle: site_logo
+            field:
+              max_files: 1
+              mode: grid
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Site Logo'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  socials:
+    display: Socials
+    sections:
+      -
+        display: Profiles
+        fields:
+          -
+            handle: profile_links
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    links:
+                      display: Links
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: icon
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Icon
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: url
+                          field:
+                            input_type: url
+                            antlers: false
+                            type: text
+                            display: Url
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+              type: replicator
+              display: 'Profile Links'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  utility:
+    display: Utility
+    sections:
+      -
+        display: Utility
+        fields:
+          -
+            handle: utility_nav
+            field:
+              max_items: 1
+              mode: select
+              type: navs
+              display: 'Utility Nav'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: copyright
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Copyright
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

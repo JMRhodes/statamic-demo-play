@@ -1,0 +1,24 @@
+title: Footer
+data:
+  site_logo: logos/logo-white.svg
+  profile_links:
+    -
+      id: lvn6rzz4
+      icon: icons/facebook-(1).svg
+      url: 'https://facebook.com'
+      type: links
+      enabled: true
+    -
+      id: lvn6ywwr
+      icon: icons/twitter.svg
+      url: 'https://twitter.com'
+      type: links
+      enabled: true
+    -
+      id: lvn6zgtt
+      icon: instagram.svg
+      url: 'https://instagram.com'
+      type: links
+      enabled: true
+  utility_nav: footer_utility
+  copyright: '© 2024 Play, Inc.'

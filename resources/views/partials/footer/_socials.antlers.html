@@ -1,0 +1,13 @@
+<div class="-mx-3 flex items-center">
+    {{ footer:profile_links }}
+        {{ if type === "links" }}
+            <a
+                href="{{ url }}"
+                target="_blank"
+                class="px-3 text-gray-200 hover:text-white"
+            >
+                {{ svg :src="icon" class="fill-white w-6"}}
+            </a>
+        {{ /if }}
+    {{ /footer:profile_links }}
+</div>

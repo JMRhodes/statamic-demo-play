@@ -1,0 +1,11 @@
+{{ if header:site_logo:url }}
+    <div class="w-60 max-w-full px-4">
+        <a href="{{ site:url }}" class="navbar-logo block w-full py-5">
+            <img
+                src="{{ header:site_logo:url }}"
+                alt="{{ header:site_logo:alt }}"
+                class="header-logo w-full"
+            />
+        </a>
+    </div>
+{{ /if }}

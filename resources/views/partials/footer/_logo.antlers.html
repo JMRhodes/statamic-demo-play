@@ -1,0 +1,13 @@
+{{ if footer:site_logo:url }}
+    <a
+        href="{{ site:url }}"
+        class="mb-6 inline-block max-w-[160px]"
+    >
+        <img
+            src="{{ footer:site_logo:url }}"
+            alt="{{ footer:site_logo:alt }}"
+            class="max-w-full"
+        />
+    </a>
+{{ /if }}
+
