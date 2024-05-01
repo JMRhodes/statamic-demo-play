@@ -10,7 +10,6 @@
     "type": "project",
     "require": {
         "php": "^8.1",
-        "alt-design/alt-cookies": "^1.0",
         "aryehraber/statamic-logbook": "^3.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.8",

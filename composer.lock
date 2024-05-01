@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8cf87b7bfbe865030db12dbe4b1d219",
+    "content-hash": "6d342155700b31ef0eba4ccf9822c8c0",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,47 +68,6 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v1.1.5"
             },
             "time": "2022-08-24T05:52:35+00:00"
-        },
-        {
-            "name": "alt-design/alt-cookies",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alt-design/Alt-Cookies-Addon.git",
-                "reference": "eb6d5e128cbdff8bdf42cd6d416b2d61862af0c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alt-design/Alt-Cookies-Addon/zipball/eb6d5e128cbdff8bdf42cd6d416b2d61862af0c2",
-                "reference": "eb6d5e128cbdff8bdf42cd6d416b2d61862af0c2",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Alt Cookies",
-                    "description": "Alt Cookies"
-                },
-                "laravel": {
-                    "providers": [
-                        "AltDesign\\AltCookiesAddon\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AltDesign\\AltCookiesAddon\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "support": {
-                "issues": "https://github.com/alt-design/Alt-Cookies-Addon/issues",
-                "source": "https://github.com/alt-design/Alt-Cookies-Addon/tree/v1.0.2"
-            },
-            "time": "2024-04-09T12:34:13+00:00"
         },
         {
             "name": "aryehraber/statamic-logbook",
