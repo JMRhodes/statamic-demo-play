@@ -75,28 +75,7 @@ tabs:
                       icon: media-news-paper
                       fields:
                         -
-                          handle: headline
-                          field:
-                            input_type: text
-                            antlers: false
-                            type: text
-                            display: Headline
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            replicator_preview: true
-                            hide_display: false
-                        -
-                          handle: description
-                          field:
-                            antlers: false
-                            type: textarea
-                            display: Description
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            replicator_preview: true
-                            hide_display: false
+                          import: media_text
               type: replicator
               display: Panels
               listable: hidden
