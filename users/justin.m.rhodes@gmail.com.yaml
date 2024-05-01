@@ -2,3 +2,7 @@ name: 'Justin Rhodes'
 super: true
 id: ace58172-4e7e-4e4b-9055-f2976d03c65c
 password_hash: $2y$10$KtQL5yAak.jmSGT3bZR/lOrnxz7qu/GoefpVkk6rdD2AnmS01YBL2
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
