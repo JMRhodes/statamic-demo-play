@@ -3,3 +3,5 @@ nav:
     reorder: true
     items:
       'content::collections::pages': '@move'
+      'content::collections::articles': '@move'
+      'content::collections': '@hide'
