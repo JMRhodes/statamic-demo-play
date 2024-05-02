@@ -76,6 +76,13 @@ tabs:
                       fields:
                         -
                           import: faqs
+                    form:
+                      display: Form
+                      instructions: null
+                      icon: form-text-field
+                      fields:
+                        -
+                          import: form
                     media_text:
                       display: 'Media & Text'
                       instructions: null
