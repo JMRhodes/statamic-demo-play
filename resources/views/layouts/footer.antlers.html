@@ -1,67 +1,53 @@
 <footer
-    class="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
-    data-wow-delay=".15s"
+    class="relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
 >
-    <div class="container m-auto px-4">
-        <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
-                <div class="mb-10 w-full">
-                    {{ partial:partials/footer/logo }}
+    <div class="wow fadeInUp" data-wow-delay=".15s">
+        <div class="container m-auto px-4">
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
+                    <div class="mb-10 w-full">
+                        {{ partial:partials/footer/logo }}
 
-                    <p class="mb-8 max-w-[270px] text-base text-gray-200">
-                        We create digital experiences for brands and companies by using
-                        technology.
-                    </p>
+                        <p class="mb-8 max-w-[270px] text-base text-gray-200">
+                            We create digital experiences for brands and companies by using
+                            technology.
+                        </p>
 
-                    {{ partial:partials/footer/socials }}
+                        {{ partial:partials/footer/socials }}
+                    </div>
                 </div>
-            </div>
 
-            {{ partial:partials/footer/nav }}
+                {{ partial:partials/footer/nav }}
 
-            <div class="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
-                <div class="mb-10 w-full">
-                    <h4 class="mb-9 text-lg font-semibold text-white">Latest blog</h4>
-                    <div class="flex flex-col gap-8">
-                        <a
-                            href="blog-details.html"
-                            class="group flex items-center gap-[22px]"
-                        >
-                            <div class="overflow-hidden rounded">
-                                <img
-                                    src="./assets/images/blog/blog-footer-01.jpg"
-                                    alt="blog"
-                                />
-                            </div>
-                            <span
-                                class="max-w-[180px] text-base text-gray-200 group-hover:text-white"
+                <div class="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
+                    <div class="mb-10 w-full">
+                        <h4 class="mb-9 text-lg font-semibold text-white">Latest blog</h4>
+                        <div class="flex flex-col gap-8">
+                            {{ collection:articles | limit="2" }}
+                            <a
+                                href="{{ url }}"
+                                class="group flex items-center gap-[22px]"
                             >
-                    I think really important to design with...
-                  </span>
-                        </a>
-                        <a
-                            href="blog-details.html"
-                            class="group flex items-center gap-[22px]"
-                        >
-                            <div class="overflow-hidden rounded">
-                                <img
-                                    src="./assets/images/blog/blog-footer-02.jpg"
-                                    alt="blog"
-                                />
-                            </div>
-                            <span
-                                class="max-w-[180px] text-base text-gray-200 group-hover:text-white"
-                            >
-                    Recognizing the need is the primary...
-                  </span>
-                        </a>
+                                <div class="overflow-hidden rounded">
+                                    {{ glide :src="featured_image" w="48" }}
+                                        <img src="{{ url }}" width="{{ width }}" height="{{ height }}">
+                                    {{ /glide }}
+                                </div>
+                                <span
+                                    class="max-w-[180px] text-base text-gray-200 group-hover:text-white"
+                                >
+                                    {{title}}
+                                </span>
+                            </a>
+                            {{ /collection:articles }}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    {{ partial:partials/footer/utility_nav }}
+        {{ partial:partials/footer/utility_nav }}
+    </div>
 
     <div>
         <span class="absolute left-0 top-0 z-[-1]">

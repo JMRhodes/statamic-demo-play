@@ -6,6 +6,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
+                'resources/css/animate.css',
                 'resources/css/site.css',
                 'resources/js/site.js',
 
