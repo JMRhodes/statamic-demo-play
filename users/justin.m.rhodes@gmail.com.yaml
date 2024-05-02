@@ -9,4 +9,4 @@ preferences:
       after_save: continue_editing
   taxonomies:
     types:
-      after_save: continue_editing
+      after_save: create_another
