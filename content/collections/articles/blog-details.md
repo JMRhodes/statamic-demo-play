@@ -1,0 +1,83 @@
+---
+id: 22a71af2-9136-4395-baa2-572f8431f757
+blueprint: article
+title: 'Blog Details'
+author: ace58172-4e7e-4e4b-9055-f2976d03c65c
+categories:
+  - development
+  - design
+  - tools
+updated_by: ace58172-4e7e-4e4b-9055-f2976d03c65c
+updated_at: 1714616692
+content:
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Facing a challenge is kind of a turn-on for an easy rider'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "There's a time and place for everything… including asking for reviews. For instance: you should not asking for a review on your checkout page. The sole purpose of this page is to guide your customer to complete their purchase, and this means that the page should be as minimalist and pared-down possible. You don't want to have any unnecessary elements or Call To Actions."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "There's a time and place for everything… including asking for reviews. For instance: you should not asking for a review on your checkout page. The sole purpose of this page is to guide your customer to complete their purchase, and this means that the page should be as minimalist and pared-down possible. You don't want to have any unnecessary elements or Call To Actions."
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Sea no quidam vulputate'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'At quo cetero fastidii. Usu ex ornatus corpora sententiae, vocibus deleniti ut nec. Ut enim eripuit eligendi est, in iracundia signiferumque quo. Sed virtute suavitate suscipiantur ea, dolor this can eloquentiam ei pro. Suas adversarium interpretaris eu sit, eum viris impedit ne. Erant appareat corrumpit ei vel.'
+  -
+    type: set
+    attrs:
+      id: lvomhqao
+      values:
+        type: blockquote
+        quote: 'A spring of truth shall flow from it: like a new star it shall scatter the darkness of ignorance, and cause a light heretofore unknown to shine amongst men.'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'What is it with your ideas?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'At quo cetero fastidii. Usu ex ornatus corpora sententiae, vocibus deleniti ut nec. Ut enim eripuit eligendi est, in iracundia signiferumque quo. Sed virtute suavitate suscipiantur ea, dolor this can eloquentiam ei pro. Suas adversarium interpretaris eu sit, eum viris impedit ne. Erant appareat corrumpit ei vel.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'At quo cetero fastidii. Usu ex ornatus corpora sententiae, vocibus deleniti ut nec. Ut enim eripuit eligendi est, in iracundia signiferumque quo. Sed virtute suavitate suscipiantur ea, dolor this can eloquentiam ei pro. Suas adversarium interpretaris eu sit, eum viris impedit ne. Erant appareat corrumpit ei vel.'
+---
