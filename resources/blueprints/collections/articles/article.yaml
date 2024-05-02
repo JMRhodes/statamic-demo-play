@@ -115,6 +115,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              max_files: 1
           -
             handle: slug
             field:
