@@ -102,7 +102,7 @@ tabs:
           -
             handle: featured_image
             field:
-              mode: list
+              mode: grid
               container: assets
               restrict: false
               allow_uploads: true
