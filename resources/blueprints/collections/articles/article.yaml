@@ -100,6 +100,22 @@ tabs:
       -
         fields:
           -
+            handle: featured_image
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Featured Image'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: slug
             field:
               type: slug
@@ -121,3 +137,11 @@ tabs:
                 - categories
               display: Categories
               mode: select
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
