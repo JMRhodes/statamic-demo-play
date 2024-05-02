@@ -13,14 +13,6 @@ tabs:
               validate:
                 - required
           -
-            handle: author
-            field:
-              type: users
-              display: Author
-              default: current
-              localizable: true
-              max_items: 1
-          -
             handle: content
             field:
               buttons:
@@ -102,6 +94,14 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
   sidebar:
     display: Sidebar
     sections:
